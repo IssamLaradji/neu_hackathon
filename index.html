@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic AI Hackathon Essentials</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <a class="logo">
+                <img src="images/agentic_ai.png" alt="AIPy Logo" style="height: 34px; margin-right: 8px; vertical-align: middle; border-radius: 50%;">
+                Agentic AI Hackathon Essentials
+            </a>
+        </div>
+
+<h1 style="text-align: center; color: white; font-size: 48px; font-weight: 600;">
+    🤖 Build Cool AI Apps from Scratch <br>
+    <span style="font-size: 24px;">
+       with (1) <strong style="color: #7eacf7;">Vibe Coding</strong>, (2) <strong style="color: #7eacf7;">Gradio</strong>, (3) <strong style="color: #7eacf7;">RAG</strong>, (4) <strong style="color: #7eacf7;">MCP (A2A)</strong>, (5) <strong style="color: #7eacf7;">Deep Research</strong>, and (6) <strong style="color: #7eacf7;">HuggingFace</strong>
+    </span>
+</h1>
+
+        
+<div class="dashboard-layout">
+           
+            <div class="main-content">
+                <div id="finalWeek">
+                    
+                    <div class="module-card">
+                        <span class="card-number">Info</span>
+                        <h3>🤖 Why Agentic AI & These Technologies Matter</h3>
+                        <div class="task-content">
+                            <p class="highlight-text">
+                                <ul>
+                                    <li>🎯 <strong style="color: #7eacf7;">Agentic AI</strong> systems represents the next evolution in AI systems and Customer Service.
+                                        <ul>
+                                            <li> they can autonomously plan, execute, and adapt to achieve complex goals, making it useful for real-world applications.</li>
+                                            <li> They can be used for <strong style="color: #7eacf7;">Deep Research</strong> where agents need to find the best information from the web and other sources and synthesize it into a coherent report.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <center>
+                                <img src="images/agentic_ai.jpg" alt="AIPy Logo" style="width: 60%;">
+                                </center>
+                                
+                            
+                            <ul class="action-list">
+                                <li><strong style="color: #7eacf7;">Vibe Coding:</strong> Enables rapid prototyping and development with AI assistance, making coding more efficient</li>
+                                <center>
+                                <img src="images/vibecoding.webp" alt="AIPy Logo" style="width: 60%;">
+                                </center>
+                                <li><strong style="color: #7eacf7;">Gradio:</strong> Simplifies the creation of interactive web interfaces for using AI models</li>
+                                <center>
+                                <img src="images/gradio.jpg" alt="AIPy Logo" style="width: 60%;">
+                                </center>
+                                <li><strong style="color: #7eacf7;">RAG (Retrieval-Augmented Generation):</strong> Combines external knowledge with AI generation, enabling more accurate and up-to-date responses</li>
+                                <center>
+                                <img src="images/rag.jpg" alt="AIPy Logo" style="width: 60%;">
+                                </center>
+                                <li><strong style="color: #7eacf7;">MCP (Model Context Protocol):</strong> Provides standardized ways for AI agents to interact with tools and external systems</li>
+                                <li><strong style="color: #7eacf7;">A2A (Agent-to-Agent):</strong> Enables AI agents to communicate and collaborate with each other for more sophisticated multi-agent systems</li>
+                                <center>
+                                <img src="images/mcp.png" alt="AIPy Logo" style="width: 60%;">
+                                </center>
+                                <li><strong style="color: #7eacf7;">Deep Research:</strong> Enables AI Agents to search for data from the web and other sources and synthesize it into a coherent report.</li>
+                                <center>
+                                <img src="images/deep_research.png" alt="AIPy Logo" style="width: 60%;">
+                                </center>
+                                <li><strong style="color: #7eacf7;">HuggingFace Spaces:</strong> A HuggingFace Space is a way to deploy your AI Apps with the world</li>
+                                <center>
+                                <img src="images/hf_spaces.png" alt="AIPy Logo" style="width: 60%;">
+                                </center>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <span class="card-number">Task 0</span>
+                        <input type="checkbox" class="task-checkbox" onchange="toggleComplete(this)">
+                        <h3>👋 Introduce Yourself</h3>
+                        <div class="task-content">
+                            <h4>📝 Action Items:</h4>
+                            <ol type="I" class="action-list">
+                                <li>📋 Join our Discord server: <a href="https://discord.gg/Gu839g95GD" target="_blank">https://discord.gg/Gu839g95GD</a></li>
+                                <li>📢 Share a brief introduction about yourself in the #introduction channel</li>
+                                <ul>
+                                <li style="font-size: 12px;">Example: "Hi, I’m Issam Laradji. I’m a Research Scientist at ServiceNow, where I work on Deep Research, and an Adjunct Professor at UBC. I completed my PhD at UBC and did my postdoc at McGill. Outside of work, I enjoy hosting board games on the beach with a BBQ. I’m passionate about developing agentic AI to make customer service much easier, so we can spend more time enjoying the best things in life!"</li>
+                                </ul>
+                            </ol>
+                         
+                        </div>
+                    </div>
+
+                 
+                    <div class="module-card">
+                        <span class="card-number">Task 1</span>
+                        <input type="checkbox" class="task-checkbox" onchange="toggleComplete(this)">
+                        <h3>⚙️ Set Up Your Integrated Development Environment (IDE)</h3>
+                        <center>
+                        <img src="images/cursor.png" alt="AIPy Logo" style="width: 80%;">
+                        </center>
+                        <div class="task-content">
+                           
+                            <h4>📝 Action Items:</h4>
+                            <ol type="I" class="action-list">
+                                <li>⚡ Install <a href="https://cursor.sh/" target="_blank">Cursor</a> on your laptop 
+                                    <ul><li>it's highly recommended that you use Cursor as your AI-powered coding assistant throughout the hackathon.</li></ul>
+                                <li>🐍 Test that you can run Python from your terminal (I recommend Python 3.12):
+                                    <ul>
+                                        <li>📝 Create a file called hello_world.py</li>
+                                        <li>✍️ Add this line: print("hello world")</li>
+                                        <li>▶️ Run it with: python hello_world.py</li>
+                                    </ul>
+                                </li>
+                                <li>🐍 Vibe Coding:
+                                    <ul>
+                                        <li>📝 Create a fancy hello world program with the help of Cursor</li>
+                                        <li>✍️ Share a screenshot of your code output to the <a href="https://discord.com/channels/1394801086338170880/1394801431038394419" target="_blank">#share-your-work Discord channel</a></li>
+                                    </ul>
+                                </li>
+                            </ol>
+                          
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <span class="card-number">Task 2</span>
+                        <input type="checkbox" class="task-checkbox" onchange="toggleComplete(this)">
+                        <h3>🤖 Build Your First AI-powered Code with Together.ai</h3>
+                             <center>
+                        <img src="images/together_ai.png" alt="AIPy Logo" style="width: 80%;">
+                        </center>
+                        <div class="task-content">
+                           <h5 style="color: #7eacf7;font-style: italic;">See Relevant Scripts: <a href="https://github.com/IssamLaradji/cool-ai-scripts/neu_scripts" target="_blank">Hackathon Scripts</a></h5>
+                            <h4>📝 Action Items :</h4>
+                            
+                            <ol type="I" class="action-list">
+                                <li>🔄 Use Together.ai for powering your Apps with AI
+                                    <ul>
+                                        <li>🔑 Sign up with <a href="https://together.ai" target="_blank">Together.ai</a> </li>
+                                         <li>You will get a free $1 credit to access different LLMs online </li> 
+                                         <li>Retrieve the API key to use for the LLMs</li>
+                                        
+                                    </ul>
+                                </li>
+                                <li>🧠 Write a script that uses a small Llama model <ul>
+                                    <li>Create a new file called <code>llm_gen.py</code> and have it run an LLM to generate a structured output about  practical usecase such as "what should I do in Vancouver today?"</li>
+                                    <li> Run the code as 
+                                        <code>export TOGETHER_API_KEY=<your_api_key></code>
+                                        <code>python llm_gen.py</code>
+
+                                    </li>
+                                    <li>Share the output on <a href="https://discord.com/channels/1394801086338170880/1394801431038394419" target="_blank">#share-your-work Discord channel</a></li>
+                                </ul>
+                                </li>
+                                
+                                
+                                <li>🎨 Write a script that uses an image generation model like Flux <ul>
+                                    <li>Create a new file called <code>image_gen.py</code> and have it run an LLM to generate an image and text for that image like an Instagram post such as about your favorite video game</li>
+                                    <li>Share the output on <a href="https://discord.com/channels/1394801086338170880/1394801431038394419" target="_blank">#share-your-work Discord channel</a></li>
+                                </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <span class="card-number">Task 3</span>
+                        <input type="checkbox" class="task-checkbox" onchange="toggleComplete(this)">
+                        <h3>💬 Create Interactive Chatbots with Gradio</h3>
+                        <div class="task-content">
+                            
+                            <center>
+                                <img src="images/chatbot.png" alt="AIPy Logo" style="width: 80%;">
+                            </center>
+                            <h5 style="color: #7eacf7;font-style: italic;">See Relevant Scripts: <a href="https://github.com/IssamLaradji/cool-ai-scripts/neu_scripts" target="_blank">Hackathon Scripts</a></h5>
+                            <h4>📝 Action Items:</h4>
+                            <ol type="I" class="action-list">
+                                <li>🤖 Create a dummy chatbot that only replies with a certain sentence
+                                    <ul>
+                                        <li>Create a new file called <code>dummy_chatbot.py</code> </li>
+                                        <li>Use Gradio (recommend version 5.37.0)to create a simple web interface</li>
+                                        <li>Make it respond with a random message regardless of input</li>
+                                    </ul>
+                                </li>
+                                <li>🧠 Write a smart chatbot that uses the LLM to respond
+                                    <ul>
+                                        <li>Create a new file called <code>smart_chatbot.py</code></li>
+                                        <li>Integrate your Together.ai API key with the chatbot</li>
+                                        <li>Create a Gradio interface that connects to the LLM</li>
+                                        <li>Adapt it to a domain of interest, for example: 
+                                            <ul>
+                                                <li>a duffy duck chatbot for a restaurant customer service</li>
+                                                <li>a Gandalf who is a therapist</li>
+                                                <li>a chatbot that can answer questions about the weather</li>
+                                                <li>a chatbot that can answer questions about the stock market</li>
+                                            </ul>
+                                        </li>
+                                        <li>Share your chatbot output to the <a href="https://discord.com/channels/1394801086338170880/1394801431038394419" target="_blank">#share-your-work Discord channel</a></li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <span class="card-number">Task 4</span>
+                        <input type="checkbox" class="task-checkbox" onchange="toggleComplete(this)">
+                        <h3>🔍 Implement RAG for Precise Knowledge Retrieval</h3>
+                        <center>
+                        <img src="images/rag.jpg" alt="AIPy Logo" style="width: 80%;">
+                        </center>
+                        <div class="task-content">
+                            <h5 style="color: #7eacf7;font-style: italic;">See Relevant Scripts: <a href="https://github.com/IssamLaradji/cool-ai-scripts/neu_scripts" target="_blank">Hackathon Scripts</a></h5>
+                            <h4>📝 Action Items:</h4>
+                            <ol type="I" class="action-list">
+                                <li>🔄 Sign up for a free account in <a href="https://huggingface.co/" target="_blank">HuggingFace</a> and create an api key</li>
+                                <li>🔄 Set the <code>HUGGINGFACE_API_KEY</code> environment variable in your terminal</li>
+                                <ul>
+                                    <li>🔄 Run the following command in your terminal: <code>export HUGGINGFACE_API_KEY=<your_api_key></code></li>
+                                </ul>
+                                <li>📚 First run the <code>rag_example.py</code> file to see how RAG works
+                                    <ul>
+                                        <li>This will create a vector database of the documents in <code>data_dict</code> variable</li>
+                                    </ul>
+                                </li>
+                                <li>🔍 Create a <code>rag_chatbot.py</code> file that uses the <code>rag_example.py</code> file to create a chatbot that can answer questions about the documents in <code>data_dict</code> variable
+                                    <ul>
+                                        <li>Use policies for a domain of interest such as a restaurant or a company</li>
+                                        <li>An example list of policies could be:
+                                            <ul>
+                                                <li>Refund Policy</li>
+                                                <li>Privacy Policy</li>
+                                                <li>Whether babies are allowed in the restaurant</li>
+                                                <li>Whether the restaurant is open on weekends</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>🧪 Test & Share your RAG-powered chatbot
+                                    <ul>
+                                        <li>Share your RAG chatbot screenshots to the <a href="https://discord.com/channels/1394801086338170880/1394801431038394419" target="_blank">#share-your-work Discord channel</a></li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <span class="card-number">Task 5</span>
+                        <input type="checkbox" class="task-checkbox" onchange="toggleComplete(this)">
+                        <h3>🚀 Deploy Your RAG-Powered Chatbot to HuggingFace Spaces</h3>
+                        <center>
+                        <img src="images/hf_spaces.png" alt="AIPy Logo" style="width: 80%;">
+                        </center>
+                        <div class="task-content">
+                           
+                            <h4>📝 Action Items:</h4>
+                            <ol class="action-list">
+                                <li>🔄 <strong>Go to <a href="https://huggingface.co/spaces" target="_blank">HuggingFace Spaces</a>:</strong>
+                                    <ul>
+                                        <li>Create a new space</li>
+                                        <li>Upload your chatbot code as <code>app.py</code></li>
+                                        <li>Create a <code>requirements.txt</code> file with the dependencies</li>
+                                        <li>Test that your app builds and runs successfully on HuggingFace</li>
+                                    </ul>
+                                </li>
+                                <li>🔗 Share your updated Hugging Face Space URL in the <a href="https://discord.com/channels/1394801086338170880/1394801431038394419" target="_blank">#share-your-work Discord channel</a></li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <span class="card-number">Task 6</span>
+                        <input type="checkbox" class="task-checkbox" onchange="toggleComplete(this)">
+                        <h3>🔍 Basic Deep Research with DuckDuckGo</h3>
+                        <center>
+                        <img src="images/deep_research.png" alt="AIPy Logo" style="width: 80%;">
+                        </center>
+                        <div class="task-content">
+                            <h5 style="color: #7eacf7;font-style: italic;">See Relevant Scripts: <a href="https://github.com/IssamLaradji/cool-ai-scripts/neu_scripts" target="_blank">Hackathon Scripts</a></h5>
+                            <h4>📝 Action Items:</h4>
+                            <ol type="I" class="action-list">
+                                <li> Create a new file called <code>deep_research.py</code> that can get a set of urls based on user input and then use an LLM to synthesize the information into a set of 5 bullet points of insights</li>
+                                <ul>
+                                    <li>🔍 Use DuckDuckGo to search for information on a topic of interest</li>
+                                    <li>🔍 Use an LLM that synthesizes the top 3 results into a set of 5 bullet points of insights</li>
+                                </ul>
+                                <li>🔍 Share the output on the <a href="https://discord.com/channels/1394801086338170880/1394801431038394419" target="_blank">#share-your-work Discord channel</a></li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <span class="card-number">Task 7</span>
+                        <input type="checkbox" class="task-checkbox" onchange="toggleComplete(this)">
+                        <h3>🔗 Learn About MCPs (Model Context Protocol) - Send a Text to a Phone Number</h3>
+                        <center>
+                        <img src="images/mcp.png" alt="AIPy Logo" style="width: 80%;">
+                        </center>
+                        <div class="task-content">
+                            <h5 style="color: #7eacf7;font-style: italic;">See Relevant Scripts: <a href="https://github.com/IssamLaradji/cool-ai-scripts/neu_scripts" target="_blank">Hackathon Scripts</a></h5>
+                            <h4>📝 Action Items:</h4>
+                            <ul class="action-list">
+                                <li>🔧 Sign up for a free account in <a href="https://surge.app/" target="_blank">Surge</a> and create an api key</li>
+                                <li> Go through the relevant scripts for Task 7 and copy the <code>mcp_server.py</code> and <code>mcp_client.py</code> files to your project</li>
+                                <li> Create <code>private/surge_config.json</code>, then run the <code>mcp_server.py</code> file and then the <code>mcp_client.py</code> file to see how MCP works</li>
+                                <li> Modify it to send a cool text message to your phone</li>
+                                <li>🔗 Share a screenshot of your output with the text message in the <a href="https://discord.com/channels/1394801086338170880/1394801431038394419" target="_blank">#share-your-work Discord channel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <span class="card-number">Task 8</span>
+                        <input type="checkbox" class="task-checkbox" onchange="toggleComplete(this)">
+                        <h3>🚀 Integrate Deep Research and MCP into your Chatbot App</h3>
+                        <center>
+                        <img src="images/hf_spaces.png" alt="AIPy Logo" style="width: 80%;">
+                        </center>
+                        <div class="task-content">
+                           
+                            <h4>📝 Action Items:</h4>
+                            <ol class="action-list">
+                                <li>Create a Chatbot <code>chatbot.py</code> that takes the user input, and uses the web to get the most relevant information and then uses an LLM to synthesize the information into a set of insights</li>
+                                <li>The chatbot should also send a text message to your phone using MCP about these insights</li>
+                                <li>🔗 Share your updated Hugging Face Space URL in the <a href="https://discord.com/channels/1394801086338170880/1394801431038394419" target="_blank">#share-your-work Discord channel</a></li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleComplete(checkbox) {
+            const moduleCard = checkbox.closest('.module-card');
+            if (checkbox.checked) {
+                moduleCard.classList.add('completed');
+            } else {
+                moduleCard.classList.remove('completed');
+            }
+            
+            // Save state to localStorage
+            saveProgress();
+        }
+
+        function saveProgress() {
+            const progress = {};
+            document.querySelectorAll('.module-card').forEach((card, index) => {
+                progress[index] = card.querySelector('.task-checkbox').checked;
+            });
+            localStorage.setItem('moduleProgress', JSON.stringify(progress));
+        }
+
+        function loadProgress() {
+            const progress = JSON.parse(localStorage.getItem('moduleProgress') || '{}');
+            document.querySelectorAll('.module-card').forEach((card, index) => {
+                const checkbox = card.querySelector('.task-checkbox');
+                if (progress[index]) {
+                    checkbox.checked = true;
+                    card.classList.add('completed');
+                }
+            });
+        }
+
+        // Load saved progress when page loads
+        document.addEventListener('DOMContentLoaded', loadProgress);
+    </script>
+</body>
+</html>

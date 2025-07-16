@@ -1,0 +1,7 @@
+requests>=2.25.1
+beautifulsoup4>=4.9.3
+lxml>=4.6.3 
+duckduckgo-search>=4.1.0 
+together>=0.2.10 
+fastmcp>=0.1.10
+gradio>=5.37.0
